@@ -28,10 +28,10 @@ body{
 /*table of contents*/
 table{
     background-color: whitesmoke;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     border-collapse: collapse;
-    margin: 20px;
+    margin: 20px auto;
 }
 th,td{
     border: 1px solid black;
@@ -42,6 +42,18 @@ th,td{
 th{
     background-color: lightblue;
     
+}
+.confirmed{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.pending{
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+.waiting{
+    background-color: lightcoral;
+    color: darkred;
 }
 /*The End*/
 footer{
