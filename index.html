@@ -7,9 +7,30 @@
     <title>Huynh's Restaurant</title>
 </head>
 <body>
-    <header>
-        <h1 class="site-init">Welcome to the Huynh'ers</h1>
+    <header class="header-init">
+        <h1>Welcome to the Huynh'ers</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="reservation.html">Reservations</a>
+            <a href="createReservation">Create a Reservation</a>
+        </nav>
     </header>
+
+    <main>
+        <div class="dish-month-container">
+            <img src="salad.jpg" alt="qinua salad">
+            <div class="dish-month-text">
+                <h2>Healthy Salad</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eius similique cupiditate deserunt ullam facere sapiente vel magnam, voluptatibus earum beatae veniam neque, nobis natus!</p>
+
+                <div class="price-selection"></div>
+                <p>$39.99</p>
+                <a class="btn-fill" href="#">Order now!</a>
+            </div>
+        </div>
+
+        <div class="dishes-container"></div>
+    </main>
 
     <h2 class="todays-date"><span id="currentDate"></span>
     <script>
