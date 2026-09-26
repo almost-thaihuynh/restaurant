@@ -51,7 +51,7 @@ th{
     background-color: lightyellow;
     color: darkgoldenrod;
 }
-.waiting{
+.cancelled{
     background-color: lightcoral;
     color: darkred;
 }
