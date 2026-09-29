@@ -144,6 +144,12 @@ th{
     color: darkred;
 }
 /*utilities*/
+hr{
+    border: none;
+    margin: 20px auto;
+    border-top: 2px solid black;
+    width: 90%;
+}
 .btn-fill{
     padding: 10px 20px;
     background-color: black;
