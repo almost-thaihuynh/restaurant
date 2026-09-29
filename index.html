@@ -21,86 +21,65 @@
             <img src="salad.jpg" alt="qinua salad">
             <div class="dish-month-text">
                 <h2>Healthy Salad</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eius similique cupiditate deserunt ullam facere sapiente vel magnam, voluptatibus earum beatae veniam neque, nobis natus!</p>
+                <p>A hearty mix of quinoa, roasted sweet potatoes, greens, red onion, dried cranberries, crunchy pumpkin seeds, and creamy feta cheese. It’s sweet, savory, and filling, with plenty of color and texture in every bite.</p>
 
-                <div class="price-selection"></div>
-                <p>$39.99</p>
-                <a class="btn-fill" href="#">Order now!</a>
+                <div class="price-selection">
+                    <p>$39.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                </div>
             </div>
         </div>
 
-        <div class="dishes-container"></div>
+
+
+        <!-- start of the row of dishes -->
+
+
+        <div class="dishes-row">
+
+            <div class="dishes-container">
+                <img src="loadedpotatoes.jpeg" alt="loaded potatoes">
+                <div>
+                    <h3>Loaded Potatoes</h3>
+                    <p>Crispy potato skins filled with melted cheddar cheese and smoky bacon, served with cool sour cream and fresh green onions.</p>
+
+                    <div class="price-selection">
+                    <p>$9.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dishes-container">
+                <img src="gardenpizza.jpeg" alt="burrata pizza">
+                <div>
+                    <h3>Pizza Burrata</h3>
+                    <p>A hand-tossed pizza topped with tomato sauce, melted cheese, fresh greens, creamy burrata, and a touch of herb pesto.</p>
+
+                    <div class="price-selection">
+                    <p>$14.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dishes-container">
+                <img src="strawberryfrenchtoast.jpeg" alt="french toast">
+                <div>
+                    <h3>French Toast</h3>
+                    <p>Golden French toast served with fresh strawberries and whipped cream for a sweet and simple breakfast favorite.</p>
+
+                    <div class="price-selection">
+                    <p>$8.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
     </main>
 
-    <h2 class="todays-date"><span id="currentDate"></span>
-    <script>
-        const today = new Date ();
-        document.getElementById("currentDate").textContent =today.toLocaleDateString();
-    </script>
-    </h2>
-    <table>
-        <Thead>
-            <tr>
-                <th colspan="5">Reservations</th>
-            </tr>
-            <tr>
-                <th>Guest Name</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Party Size</th>
-                <th>Status</th>
-            </tr>
-        </Thead>
-        <tbody>
-            <tr>
-                <td>Johnson</td>
-                <td>09/25/2026</td>
-                <td>5:30 PM</td>
-                <td>4</td>
-                <td class="confirmed">Confirmed</td>
-            </tr>
-
-            <tr>
-                <td>Williams</td>
-                <td>09/25/2026</td>
-                <td>6:45 PM</td>
-                <td>2</td>
-                <td class="confirmed">Confirmed</td>
-            </tr>
-
-            <tr>
-                <td>Martinez</td>
-                <td>09/25/2026</td>
-                <td>8:00 PM</td>
-                <td>6</td>
-                <td class="cancelled">Cancelled</td>
-            </tr>
-
-            <tr>
-                <td>Thompson</td>
-                <td>09/26/2026</td>
-                <td>6:00 PM</td>
-                <td>3</td>
-                <td class="confirmed">Confirmed</td>
-            </tr>
-
-            <tr>
-                <td>Anderson</td>
-                <td>09/27/2026</td>
-                <td>7:30 PM</td>
-                <td>5</td>
-                <td class="pending">Pending</td>
-            </tr>
-
-            <tr>
-                <td>Robinson</td>
-                <td>09/28/2026</td>
-                <td>5:45 PM</td>
-                <td>2</td>
-                <td class="confirmed">Confirmed</td>
-            </tr>
-        </tbody>
-    </table>
         <footer>
         <h2>Dine in. Dine-out. Which ever you choose, you're a Huynh'er</h2>
         <p>Would you dine-out? I'd dine-out...</p>
