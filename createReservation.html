@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="practice/form.css">
+    <title>Create Reservation</title>
+</head>
+<body>
+    <header class="header-init">
+        <h1>Welcome to the Huynh'ers</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="reservation.html">Reservations</a>
+            <a href="createReservation">Create a Reservation</a>
+        </nav>
+    </header>
+    <main>
+        <div class="reservation-wrapper">
+            <div class="reservation-header">
+                <h1>Reserve your table</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem asperiores aspernatur dolorum iste! Obcaecati nostrum repellat a suscipit ipsum deserunt ut ratione! Dicta, sit! Ad dolorem quo aliquid ratione nemo?
+                </p>
+            </div>
+            <form class="reservation-form">
+                <!-- Date, time, party size, guest name, status. -->
+                 <div class="input-group">
+                    <label>Date</label>
+                    <input type="date">
+                 </div>
+
+                 <div class="input-group">
+                    <label>Time:</label>
+                    <input type="time">
+                 </div>
+
+                 <div class="input-group">
+                    <label>Party Size:</label>
+                    <input type="number">
+                 </div>
+
+                 <div class="input-group">
+                    <label>Group Name:</label>
+                    <input type="text">
+                 </div>
+
+                 <div class="input-group">
+                    <label>Status:</label>
+                    <select name="status" id="status">
+                        <option value="" disable selected> --- Select one status ---</option>
+                        <option value="confirmed">Confirm</option>
+                        <option value="pending">Pending</option>
+                        <option value="cancel">Cancel</option>
+                    </select>
+                 </div>
+            </form>
+
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+.reservation-wrapper{
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+.reservation-header{
+    text-align: center;
+
+}
+.reservation-form{
+    padding: 30px;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+label{
+    width: 20%;
+}
+input,select{
+    padding: 5px;
+    border: 1px solid gray;
+    font-size: 18px;
+    width: 60%;
+}
