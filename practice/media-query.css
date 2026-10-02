@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+p{
+    font-size: 18px;
+    line-height: 2;
+    width: 70%;
+}
+header{
+    background-color: pink;
+    height: 30vh;
+}
+main{
+    background-color: purple;
+    height: 30vh;
+}
+footer{
+    background-color: lightsalmon;
+    height: 30vh;
+}
+
+/*tablet design*/
+@media(min-width:601px) and (max-width:768px){
+    header{
+        background-color: blue;
+    }
+    p{
+        width: 85%;
+    }
+    a{
+        display: none;
+    }
+}
+
+@media(max-width:600px){
+    header{
+        background-color: aqua;
+    }
+}
